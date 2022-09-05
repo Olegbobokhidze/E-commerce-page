@@ -145,18 +145,18 @@ let index = 1;
 const leftArrow = document.querySelector(".left-arrow");
 const rightArrow = document.querySelector(".right-arrow");
 leftArrow.addEventListener("click", function () {
-  if (i === 4) {
-    i = 1;
+  if (index === 1) {
+    index = 4;
   } else {
-    i++;
+    index--;
   }
-  sneakerImg1.src = `images/image-product-${i}.jpg`;
+  sneakerImg1.src = `images/image-product-${index}.jpg`;
 });
 rightArrow.addEventListener("click", function () {
-  if (i === 1) {
-    i = 4;
+  if (index === 4) {
+    index = 1;
   } else {
-    i--;
+    index++;
   }
-  sneakerImg1.src = `images/image-product-${i}.jpg`;
+  sneakerImg1.src = `images/image-product-${index}.jpg`;
 });
