@@ -63,7 +63,9 @@ trash.addEventListener("click", function () {
   cartActive.style.display = "none";
   empty.style.display = "flex";
   cartButton.style.display = "none";
+  orangeP.style.display = "none";
   orangeP.innerHTML = 0;
+  cartShown.style.display = "none";
   countingSneaker.innerHTML = "0";
   sneakerIndex = 0;
 });
@@ -78,7 +80,7 @@ close.addEventListener("click", function () {
 
 // Pricing plus/minus
 // FIXME
-let sneakerIndex = 1;
+let sneakerIndex = 0;
 plus.addEventListener("click", function () {
   if (sneakerIndex === 50) {
     return (sneakerIndex = 50);
