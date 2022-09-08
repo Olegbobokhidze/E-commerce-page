@@ -304,15 +304,14 @@ body {
 .cart-hr {
   background-color: #e4e9f2;
   border: 1px solid #e4e9f2;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 360px;
-  margin-top: 5px;
 }
 .cart-h3 {
-  text-align: end;
-  align-self: flex-start;
   margin-left: 20px;
-  margin-bottom: 5px;
+  position: relative;
+  top: -25px;
+  left: -140px;
 }
 .empty {
   margin-top: 15px;
