@@ -513,6 +513,7 @@ body {
   .active {
     opacity: 0.5;
     border: 5px #ff7e1b solid;
+    border-radius: 10px;
   }
   .smallimg {
     border-radius: 10px;
