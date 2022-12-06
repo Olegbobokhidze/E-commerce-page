@@ -5,7 +5,6 @@
 - [Overview](#overview)
   - [Links](#links)
   - [Built with](#built-with)
-  - [Personal development](#personal-development)
 - [Author](#author)
 
 ## Overview
@@ -26,9 +25,6 @@ This E-commerce product page
 - Javascript
 
 
-### Personal development
-
-This is only start. :))
 
 ## Author
 
